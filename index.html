@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media queries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rohan Benny</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#Education">Education</a></li> -->
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rohan Benny</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="togglemenu()">About</a></li>
+            <!-- <li><a href="#Education" onclick="togglemenu()">Education</a></li> -->
+            <li><a href="#Skills" onclick="togglemenu()">Skills</a></li>
+            <li><a href="#Projects" onclick="togglemenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="togglemenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="/Assets/propic1.jpg" alt="Rohan Benny profile pic" id="unique">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Rohan Benny</h1>
+            <p class="section_text_p2">Web Designer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/Rohan Benny.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact</button>
+            </div>
+            <div class="socials-container">
+                <img src="./Assets/linkedin.png" alt="My linkedin profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/rohan-benny-207161262/'">
+                <img src="./Assets/github.png" alt="My Github profile"
+                class="icon" onclick="location.href='https://github.com/rohan-benny'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./Assets/abot.JPG" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3><br>
+                        <p>Bachelor of Computer Application(BCA) <br>Kristu Jayanti College <br><br>12th <br>St Peter's Senior Secondary School<br> Kadayiruppu<br><br>10th <br>St Peter's Senior Secondary School<br> Kadayiruppu</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nihil, dolorum aut doloribus ut modi. Maiores odit porro voluptate corrupti laudantium vel dignissimos doloremque, sint ratione omnis, exercitationem iure impedit?</p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Skills'">
+    </section>
+    <section id="Skills">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Java Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Web Flow</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Visual Basic</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Projects'">
+    </section>
+    <section id="Projects">
+        <p class="section_text_p1">Browse My</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/project1.png" alt="project 1" class="project-img">
+                </div>
+                <h2 class="skills-sub-title project-title">Project One</h2>
+                <p class="section_text_p1">The Leave Management Solution is a VB.net based application<br> intended to address the difficulty of efficiently and effectively handling user leave requests, approvals, and tracking.</p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rohan-benny/Leave-Management-Solution'">
+                        Github
+                    </button><br>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/project1.png" alt="project 1" class="project-img">
+                </div>
+                <h2 class="skills-sub-title project-title">Project Two</h2>
+                <p class="section_text_p1">Designed this Website with the help of Figma Tool.</p>
+            </div></div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Contact'">
+    </section>
+    <section id="Contact">
+        <p class="section_text_p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Assets/email.png" alt="email-icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:rohanbenny99@gmail.com">rohanbenny99@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Assets/linkedin.png" alt="linkedin-icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/rohan-benny-207161262/">linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#Education">Education</a></li> -->
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul> 
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Rohan Benny. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
