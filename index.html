@@ -9,13 +9,14 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Rohan Benny</div>
+        <div class="logo"><img src="./Assets/logo.png" alt="logo" class="logo"></div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <!-- <li><a href="#Education">Education</a></li> -->
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Certificates">Certificates</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
@@ -33,6 +34,7 @@
             <!-- <li><a href="#Education" onclick="togglemenu()">Education</a></li> -->
             <li><a href="#Skills" onclick="togglemenu()">Skills</a></li>
             <li><a href="#Projects" onclick="togglemenu()">Projects</a></li>
+            <li><a href="#Certificates" onclick="togglemenu()">Certificates</a></li>
             <li><a href="#Contact" onclick="togglemenu()">Contact</a></li>
         </div>
         </div>
@@ -54,6 +56,10 @@
                 class="icon" onclick="location.href='https://www.linkedin.com/in/rohan-benny-207161262/'">
                 <img src="./Assets/github.png" alt="My Github profile"
                 class="icon" onclick="location.href='https://github.com/rohan-benny'">
+                <img src="./Assets/Insta.png" alt="My Instagram profile"
+                class="icon" onclick="location.href='https://www.instagram.com/rohan_benny99/'">
+                <img src="./Assets/facebook.png" alt="My Facebook profile"
+                class="icon" onclick="location.href='https://www.facebook.com/Rohan Benny'">
             </div>
         </div>
     </section>
@@ -62,7 +68,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section_pic-container">
-                <img src="./Assets/abot.JPG" alt="Profile Picture" class="about-pic">
+                <img src="./Assets/about.JPG" alt="Profile Picture" class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -71,9 +77,17 @@
                         <h3>Education</h3><br>
                         <p>Bachelor of Computer Application(BCA) <br>Kristu Jayanti College <br><br>12th <br>St Peter's Senior Secondary School<br> Kadayiruppu<br><br>10th <br>St Peter's Senior Secondary School<br> Kadayiruppu</p>
                     </div>
+                    <div class="details-container">
+                        <img src="./Assets/internship.png" alt="education icon" class="icon">
+                        <h3>Internship</h3><br>
+                        <p>Eduphoenix Solutions Ltd(Bangalore)<br>Web Development<br>2 Months</p>
+                        <a href="./Assets/Internship.jpg" target="_blank">
+                            <img src="./Assets/Internship.jpg" alt="internship" class="intern" >
+                        </a>
+                    </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nihil, dolorum aut doloribus ut modi. Maiores odit porro voluptate corrupti laudantium vel dignissimos doloremque, sint ratione omnis, exercitationem iure impedit?</p>
+                    <p>I am Rohan Benny, pursuing my final year Bachelor of Computer Application (BCA) at Kristu Jayanti College bangalore. I was born and brought-up in Kerala. I am a Web Desinger and also a musician,i'm passionate about music. My strengths includes patient listening, hardworking. </p>
                 </div>
             </div>
         </div>
@@ -157,6 +171,39 @@
                         </article>
                     </div>
                 </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">DIgital Audio Workstation</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Cubase</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Studio One</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Logic Pro</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Fl Studio</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
         </div>
         <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Projects'">
@@ -168,14 +215,16 @@
             <div class="about-containers">
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="./Assets/project1.png" alt="project 1" class="project-img">
+                    <img src="./Assets/Leave.jpg" alt="project 1" class="project-img">
                 </div>
                 <h2 class="skills-sub-title project-title">Project One</h2>
                 <p class="section_text_p1">The Leave Management Solution is a VB.net based application<br> intended to address the difficulty of efficiently and effectively handling user leave requests, approvals, and tracking.</p><br>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rohan-benny/Leave-Management-Solution'">
+                    <a href="https://github.com/rohan-benny/Leave-Management-Solution" target="_blank">
+                    <button class="btn btn-color-2 project-btn">
                         Github
                     </button><br>
+                    </a>
                 </div>
             </div>
             <div class="details-container color-container">
@@ -186,7 +235,54 @@
                 <p class="section_text_p1">Designed this Website with the help of Figma Tool.</p>
             </div></div>
         </div>
-        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Contact'">
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Certificates'">
+    </section>
+    <section id="Certificates">
+        <p class="section_text_p1">Check Out</p>
+        <h1 class="title">My Certificates</h1>
+        <div class="certificates-container">
+            <div class="certificate">
+                <a href="./Assets/Advanced Java.pdf" target="_blank">
+                    <img src="./Assets/advance java.png" alt="Certificate 1">
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="./Assets/Block Chain 101.pdf" target="_blank">
+                    <img src="./Assets/block 101.png" alt="Certificate 2">
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="./Assets/Block Chain in Depth.pdf" target="_blank">
+                    <img src="./Assets/block depth.png" alt="Certificate 3">
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="./Assets/Cyber Security Awareness.jpg" target="_blank">
+                    <img src="./Assets/Cyber Security Awareness.jpg" alt="Certificate 4">
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="./Assets/Java.pdf" target="_blank">
+                    <img src="./Assets/jav.png" alt="Certificate 5">
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="./Assets/Kalajyothi.pdf" target="_blank">
+                    <img src="./Assets/kala.png" alt="Certificate 6">
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="./Assets/Python.pdf" target="_blank">
+                    <img src="./Assets/python.png" alt="Certificate 7">
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="./Assets/RPA.pdf" target="_blank">
+                    <img src="./Assets/Rpa.png" alt="Certificate 8">
+                </a>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="iconc" onclick="location.href='./#Contact'">
     </section>
     <section id="Contact">
         <p class="section_text_p1">Get in touch</p>
@@ -203,13 +299,14 @@
         </div>
     </section>
     <footer>
-        <nav>
+        <nav class="fnav">
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <!-- <li><a href="#Education">Education</a></li> -->
                     <li><a href="#Skills">Skills</a></li>
                     <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Certificates">Certificates</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul> 
             </div>
