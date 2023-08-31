@@ -48,8 +48,7 @@ a:hover{
     text-decoration-color: rgb(181,181,181);
 }
 .logo{
-    width:20rem;
-    height: 8rem;
+   font-size: 2rem;
 }
 .logo:hover{
     cursor: default;
